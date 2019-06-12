@@ -35,7 +35,7 @@ class Song
         return item
       end
     end
-    false
+    nil
   end
   
   def self.find_or_create_by_name(name)
