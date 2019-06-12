@@ -44,7 +44,7 @@ class Song
     if song
       song
     else
-      song = self.new_by_name(name)
+      song = new_by_name(name)
       song
     end
   end
