@@ -38,4 +38,15 @@ class Song
     false
   end
   
+  def self.find_or_create_by_name(name)
+    song = self.find_by_name(name)
+    
+    if song
+      song
+    else
+      song = self.new_by_name(name)
+      song
+    end
+  end
+  
 end
