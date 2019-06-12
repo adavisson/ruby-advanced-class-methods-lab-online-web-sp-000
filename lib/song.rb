@@ -35,6 +35,7 @@ class Song
         return item
       end
     end
+    false
   end
   
 end
