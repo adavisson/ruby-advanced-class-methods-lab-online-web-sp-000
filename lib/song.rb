@@ -44,8 +44,7 @@ class Song
     if song
       song
     else
-      song = self.create_by_name(name)
-      song
+      self.create_by_name(name)
     end
   end
   
